@@ -1,9 +1,9 @@
 version: '3'
 services:
   srt:
-    image: ravenium/srt-live-server
+    image: 531528172/srt-live-server
     ports: 
-      - "1935:1935/udp"
+      - "1945:1945/udp"
     volumes:
       - ./sls.conf:/etc/sls/sls.conf
       - ./logs:/logs
